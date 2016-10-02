@@ -1,0 +1,31 @@
+.jumbotron {
+  background-color: #F3D08E;
+  color:#FFFFFF;
+  padding: 100px 25px;
+}
+
+.container-fluid {
+  padding: 60px 50px;
+}
+
+.bg-grey {
+  background-color: ##F6F6F6;
+}
+
+.logo {
+  font-size: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+}
+
+.profile-container {
+  width: 350px;
+  height: 350px;
+  display: block;
+  margin: 0 auto;
+}
