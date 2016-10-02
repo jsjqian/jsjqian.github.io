@@ -1,5 +1,5 @@
 .jumbotron {
-  background-color: #F3D08E;
+  background-color: #588C7E;
   color:#FFFFFF;
   padding: 100px 25px;
 }
@@ -8,8 +8,12 @@
   padding: 60px 50px;
 }
 
-.bg-grey {
-  background-color: ##F6F6F6;
+.bg-about {
+  background-color: #FFFFFF;
+}
+
+.bg-experience {
+  background-color: #F6F6F6;
 }
 
 .logo {
@@ -21,6 +25,22 @@
     text-align: center;
     margin: 25px 0;
   }
+}
+
+.no-bullet {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+.ability {
+  min-height: 30px;
+  padding: 3px 0px;
+  display: inline-block;
+  width: 60%;
+  float: right;
 }
 
 .profile-container {
