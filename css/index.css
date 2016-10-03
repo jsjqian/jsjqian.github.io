@@ -33,7 +33,15 @@
   padding: 0px;
 }
 
+.logo-small {
+  color: #588C7E;
+  font-size: 16px;
+}
 
+.logo {
+  color: #588C7E;
+  font-size: 200px;
+}
 
 .ability {
   min-height: 30px;
