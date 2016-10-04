@@ -11,9 +11,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/scroll.js"></script>
   <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
-<body>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
@@ -45,7 +46,7 @@
   </div>
 </div>
 
-<div class="container-fluid bg-about">
+<div id ="about" class="container-fluid bg-about">
   <div class="row">
     <div class="col-sm-8">
       <h2>About Me</h2>
@@ -59,7 +60,7 @@
   </div>
 </div>
 
-<div class="container-fluid bg-experience">
+<div id="experience" class="container-fluid bg-experience">
   <div class="row">
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-folder-open logo"></span>
@@ -73,7 +74,7 @@
   </div>
 </div>
 
-<div class="container-fluid text-center">
+<div id="abilities" class="container-fluid text-center">
   <h2>Abilities</h2>
     <hr style="width: 60%">
     <br>
@@ -328,8 +329,9 @@
     </div>
 </div>
 
-<div class="container-fluid bg-about">
+<div id="contact" class="container-fluid bg-about">
   <h2 class="text-center">Contact Me</h2>
+  <hr style="width: 60%">
   <div class="row">
     <div class="col-sm-5">
       <p>Leave your name and email if you want to contact me</p>
@@ -355,6 +357,13 @@
     </div>
   </div>
 </div>
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"</span>
+  </a>
+  <p>Back to top</p>
+</footer>
 
 </body>
 
