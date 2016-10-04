@@ -20,6 +20,14 @@
   font-size: 200px;
 }
 
+.img-responsive {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-height: 25%;
+  max-width: 25%;
+}
+
 @media screen and (max-width: 768px) {
   .col-sm-4 {
     text-align: center;
@@ -76,9 +84,3 @@
   color: #FFF !important;
 }
 
-.profile-container {
-  width: 350px;
-  height: 350px;
-  display: block;
-  margin: 0 auto;
-}
