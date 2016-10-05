@@ -5,7 +5,11 @@
 }
 
 .container-fluid {
-  padding: 60px 50px;
+  padding: 60px 50px
+}
+
+.container-padding {
+  padding: 20% 20%
 }
 
 .bg-about {
@@ -16,6 +20,10 @@
   background-color: #F6F6F6;
 }
 
+.title {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
 .logo {
   font-size: 200px;
 }
@@ -24,8 +32,8 @@
   text-align: center;
   display: block;
   margin: 0 auto;
-  max-height: 25%;
-  max-width: 25%;
+  max-height: 70%;
+  max-width: 70%;
 }
 
 @media screen and (max-width: 768px) {
