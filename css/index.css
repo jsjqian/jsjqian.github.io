@@ -24,6 +24,10 @@
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
+.col-sm-2 {
+  padding-right: 10%;
+}
+
 .logo {
   font-size: 200px;
 }
