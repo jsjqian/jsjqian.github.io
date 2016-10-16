@@ -1,3 +1,7 @@
 function sendEmail() {
-  window.location = 'mailto:jack.qian97@gmail.com?subject='email+' '+name'&body=message';
+  var email = document.getElementById('email').value;
+  var name = document.getElementById('name').value;
+  var message = document.getElementById('message').value;
+  window.location = 'mailto:jack.qian97@gmail.com?subject='+name+
+  ' '+email+'&body='+message;
 }
