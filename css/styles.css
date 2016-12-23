@@ -1,0 +1,53 @@
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #F44336;
+}
+
+#bg {
+  height: 100%;
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: center;
+  background-color: #F44336;
+}
+
+#name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FFEBEE;
+}
+
+.desc {
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 7px;
+}
+
+.tags {
+  color: #FFCDD2;
+}
+
+.fa {
+  color: #C62828;
+  margin-top: 7px;
+}
+
+a {
+  margin: 7px;
+}
+
+strong {
+  font-size: 100px;
+  font-family: 'Ubuntu', sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
