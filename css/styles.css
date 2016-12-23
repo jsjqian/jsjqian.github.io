@@ -29,6 +29,7 @@ body {
 .row {
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin-top: 7px;
 }
 
@@ -42,7 +43,7 @@ body {
 }
 
 a {
-  margin: 7px;
+  margin: 21px;
 }
 
 strong {
