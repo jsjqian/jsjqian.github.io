@@ -9,5 +9,5 @@ jQuery(function () {
             i = (i + 1) % len
             $els.eq(i).fadeIn(1000);
         })
-    }, 6000)
+    }, 4000)
 })

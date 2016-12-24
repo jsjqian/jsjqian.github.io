@@ -13,10 +13,11 @@ body {
   background-color: #F44336;
 }
 
-#name {
+#content {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   color: #FFEBEE;
 }
 
@@ -24,17 +25,13 @@ body {
   font-size: 20px;
   font-family: 'Ubuntu', sans-serif;
   text-rendering: optimizeLegibility;
+  color: #FFCDD2;
 }
 
 .row {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  margin-top: 7px;
-}
-
-.tags {
-  color: #FFCDD2;
+  margin-top: 8px;
 }
 
 .fa {
