@@ -13,7 +13,7 @@ body {
   background-color: #F44336;
 }
 
-#content {
+#name {
   display: flex;
   flex-direction: column;
   align-items: center;
