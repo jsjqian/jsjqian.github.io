@@ -39,6 +39,10 @@ body {
   margin-top: 7px;
 }
 
+.fa:hover {
+  color: #A7FFEB;
+}
+
 a {
   margin: 21px;
 }
@@ -48,4 +52,3 @@ strong {
   font-family: 'Roboto Slab';
   text-rendering: optimizeLegibility;
 }
-
