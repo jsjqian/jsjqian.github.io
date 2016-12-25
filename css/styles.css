@@ -21,17 +21,19 @@ body {
   color: #E0F2F1;
 }
 
-.desc {
-  font-size: 20px;
-  font-family: 'Ubuntu', sans-serif;
-  text-rendering: optimizeLegibility;
-  color: #B2DFDB;
-}
-
 .row {
   display: flex;
   flex-direction: row;
   margin-top: 8px;
+}
+
+.desc {
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  text-rendering: optimizeLegibility;
+  margin-right: auto;
+  margin-left: auto;
+  color: #B2DFDB;
 }
 
 .fa {
@@ -39,16 +41,37 @@ body {
   margin-top: 7px;
 }
 
-.fa:hover {
+.fa-linkedin, .fa-envelope {
+  color: #009688;
+}
+
+.fa-github:hover {
+  color: #A7FFEB;
+}
+
+.fa-stack:hover .fa-circle {
   color: #A7FFEB;
 }
 
 a {
-  margin: 21px;
+  margin: 11px;
 }
 
 strong {
   font-size: 100px;
   font-family: 'Roboto Slab';
   text-rendering: optimizeLegibility;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .row {
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  
+  .desc {
+    font-size: 35px;
+  }
+
 }
