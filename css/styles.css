@@ -24,7 +24,10 @@ html, body {
 .row {
   display: flex;
   flex-direction: row;
-  margin-top: 8px;
+}
+
+.skills {
+  margin-top: 7px;
 }
 
 .desc {
@@ -38,7 +41,6 @@ html, body {
 
 .fa {
   color: #00695C;
-  margin-top: 7px;
 }
 
 .fa-linkedin, .fa-envelope {
