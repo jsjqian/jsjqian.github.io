@@ -1,2 +1,2 @@
 # Jack Qian's Website
-Check it out at [jsjqian.me](http://jsjqian.me)
+Check it out at [jsjqian.github.io](http://jsjqian.github.io)
