@@ -5,8 +5,8 @@ const Menu = () => {
     <Container>
       <Navbar>
         <Button href='/past'>past lives</Button>
-        <Button href='/blog'>thoughts</Button>
-        <Button href='/contact'>correspondence</Button>
+        <Button href='/thoughts'>thoughts</Button>
+        <Button href='/connect'>connect</Button>
       </Navbar>
     </Container>
   )
