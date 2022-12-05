@@ -6,12 +6,12 @@ import styled from "styled-components";
 const Home: NextPage = () => {
   return (
     <Container>
-      <Menu />
       <Head>
         <title>jack qian (@jsjqian)</title>
         <meta name="description" content="@jsjqian" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Menu />
       <Main>
         <Title>
           jack qian (@jsjqian)
