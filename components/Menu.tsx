@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
-function Menu() {
+function Menu(): JSX.Element {
   return (
     <Container>
       <Navbar>
@@ -9,26 +9,26 @@ function Menu() {
         <Button href="/connect">connect</Button>
       </Navbar>
     </Container>
-  );
+  )
 }
 
 const Container = styled.div`
-	position: sticky;
+  position: sticky;
   top: 0;
   width: 100%;
-`;
+`
 
 const Navbar = styled.div`
   display: flex;
   justify-content: right;
   padding: 2rem;
-`;
+`
 
 const Button = styled.a`
   color: #fabd2f;
   text-align: center;
   padding: 14px;
   text-decoration: none;
-`;
+`
 
-export default Menu;
+export default Menu
